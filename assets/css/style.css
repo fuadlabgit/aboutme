@@ -123,30 +123,15 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* unvisited link */
-a:link {
-  color: gray;
-}
-
-/* visited link */
-a:visited {
-  color: gray;
-}
-
-/* mouse over link */
-a:hover {
-  color: rgb(37,229,208);
-}
-
-/* selected link */
-a:active {
-  color: gray;
-}
 
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
@@ -189,6 +174,27 @@ a:active {
   z-index: var(--z-fixed);
   background-color: var(--body-color);
 }
+
+/* unvisited link */
+a:link {
+  color: gray;
+}
+
+/* visited link */
+a:visited {
+  color: gray;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(37,229,208);
+}
+
+/* selected link */
+a:active {
+  color: gray;
+}
+
 
 /*==================== NAV ====================*/
 
