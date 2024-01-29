@@ -86,11 +86,11 @@ html {
   scroll-behavior: smooth;
 }
 .circular_image {
-  width: 250px;
-  height: 250px;
-  border-radius: 60%;
+  width: 273px;
+  height: 268px;
+  border-radius: 80%;
   overflow: hidden;
-  background-color: rgb(250,250,250);
+  background-color: rgb(240,240,240);
 	/*rgb(231,231,231);*/
   /* commented for demo
   float: left;
@@ -110,12 +110,11 @@ body {
   margin: 100px 0 var(--header-height) 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: rgb(250,250,250);
+  background-color: rgb(250,250, 250);
   color: var(--text-color);
 }
 
 h1, h2, h3, h4 {
-  color: var(--title-color);
   font-weight: var(--font-semi-bold);
 }
 
